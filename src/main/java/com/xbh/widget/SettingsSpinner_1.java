@@ -32,7 +32,7 @@ import java.util.List;
  * @Date: 2023/7/29 19:03
  * @Description: 此类未有加动画
  */
-public class SettingsSpinner_bak extends LinearLayout {
+public class SettingsSpinner_1 extends LinearLayout {
 
     public static final String TAG = "SettingsSpinner";
     private int mSelectPosition;
@@ -52,19 +52,19 @@ public class SettingsSpinner_bak extends LinearLayout {
     private NiceAdapter mAdapter;
     private List<String> mDatas;
 
-    public SettingsSpinner_bak(Context context) {
+    public SettingsSpinner_1(Context context) {
         this(context, null);
     }
 
-    public SettingsSpinner_bak(Context context, @Nullable AttributeSet attrs) {
+    public SettingsSpinner_1(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, -1);
     }
 
-    public SettingsSpinner_bak(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public SettingsSpinner_1(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         this(context, attrs, defStyleAttr, -1);
     }
 
-    public SettingsSpinner_bak(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public SettingsSpinner_1(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         Resources resources = getResources();
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.SettingsSpinner);
@@ -221,7 +221,7 @@ public class SettingsSpinner_bak extends LinearLayout {
             String item = mAdapter.getItem(position);
             mText.setText(item);
             if (mSelectListener != null) {
-                mSelectListener.onItemSelected(SettingsSpinner_bak.this, view, position, id);
+                mSelectListener.onItemSelected(SettingsSpinner_1.this, view, position, id);
             }
 
             mPopupWindow.dismiss();
