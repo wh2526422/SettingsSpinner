@@ -30,7 +30,7 @@ import java.util.List;
  * @Author: Huan.Wang
  * @Email: huan.wang@lango-tech.cn
  * @Date: 2023/7/29 19:03
- * @Description:
+ * @Description: 此类未有加动画
  */
 public class SettingsSpinner_bak extends LinearLayout {
 
