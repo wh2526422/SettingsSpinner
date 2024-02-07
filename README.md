@@ -1,1 +1,3 @@
 # SettingsSpinner
+
+自定义的Spinner，和原生的唯一区别在初始化的时候不会调用itemSelect去执行一遍被选中事件，请选择合适自己的场景使用
